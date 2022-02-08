@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/restearcana-app/static/css/main.04fb39bf.css",
-    "main.js": "/restearcana-app/static/js/main.9d1f7ab3.js",
-    "static/js/787.2684ed32.chunk.js": "/restearcana-app/static/js/787.2684ed32.chunk.js",
-    "index.html": "/restearcana-app/index.html",
-    "main.04fb39bf.css.map": "/restearcana-app/static/css/main.04fb39bf.css.map",
-    "main.9d1f7ab3.js.map": "/restearcana-app/static/js/main.9d1f7ab3.js.map",
-    "787.2684ed32.chunk.js.map": "/restearcana-app/static/js/787.2684ed32.chunk.js.map"
+    "main.css": "/restearcana/static/css/main.04fb39bf.css",
+    "main.js": "/restearcana/static/js/main.c190b782.js",
+    "static/js/787.2684ed32.chunk.js": "/restearcana/static/js/787.2684ed32.chunk.js",
+    "index.html": "/restearcana/index.html",
+    "main.04fb39bf.css.map": "/restearcana/static/css/main.04fb39bf.css.map",
+    "main.c190b782.js.map": "/restearcana/static/js/main.c190b782.js.map",
+    "787.2684ed32.chunk.js.map": "/restearcana/static/js/787.2684ed32.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04fb39bf.css",
-    "static/js/main.9d1f7ab3.js"
+    "static/js/main.c190b782.js"
   ]
 }
