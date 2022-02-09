@@ -1,6 +1,7 @@
-.lmj-banner {
-    color: black;
-    text-align: right;
-    padding: 32px;
-    border-bottom: solid 3px black;
+.banniere {
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    width: 750px;
+    height: 150px;
+    float:None;
 }

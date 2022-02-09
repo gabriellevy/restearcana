@@ -1,5 +1,6 @@
 import { lieuxTries } from '../donnees/lieuxPuissance'
 import { joueursTries } from '../donnees/joueurs'
+import '../styles/LieuxDePuissance.css';
 
 function LieuxDePouvoir() {
     let titre = 'Lieux de pouvoir'
@@ -8,7 +9,7 @@ function LieuxDePouvoir() {
         .map(value => ({ value, sort: Math.random() }))
         .sort((a, b) => a.sort - b.sort)
         .map(({ value }) => value)
-        .map((value ) => Math.random()>0.5 ? value.lune : value.soleil)
+        .map((value ) => Math.random()>0.5 ?  value.lune : value.soleil)
 
     let nbLieux = 7;
     if (joueursTries.length == 2)
@@ -25,11 +26,9 @@ function LieuxDePouvoir() {
     return (
         <div>
         <h2>{titre}</h2>
-            <ul>
                 {lieux.map((lieu) => (
-                    <li>{lieu}</li>
+                        <img src={lieu}/>
                 ))}
-            </ul>
             </div>
         )
 }

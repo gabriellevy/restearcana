@@ -1,38 +1,58 @@
+import puitSacrificiel from '../images/lieux/lune/puitSacrificiel.png'
+import bestiaireDeSorcier from '../images/lieux/lune/bestiaireDeSorcier.png'
+import récifDesNaufrageurs from '../images/lieux/lune/récifDesNaufrageurs.png'
+import mineDesNains from '../images/lieux/lune/mineDesNains.png'
+import porteDesEnfers from '../images/lieux/lune/porteDesEnfers.png'
+import tourDeLalchimiste from '../images/lieux/lune/tourDeLalchimiste.png'
+import forteresseDeCristal from '../images/lieux/lune/forteresseDeCristal.png'
+import laboratoireAlchimique from '../images/lieux/lune/laboratoireAlchimique.png'
+import berceauDePerles from '../images/lieux/lune/berceauDePerles.png'
+
+import catacombesDeLaMort from '../images/lieux/soleil/catacombesDeLaMort.png'
+import repaireDesDragons from '../images/lieux/soleil/repaireDesDragons.png'
+import manoirDeCorail from '../images/lieux/soleil/manoirDeCorail.png'
+import forgeMaudite from '../images/lieux/soleil/forgeMaudite.png'
+import templeDesAbysses from '../images/lieux/soleil/templeDesAbysses.png'
+import bosquetSacré from '../images/lieux/soleil/bosquetSacré.png'
+import antreDeDragon from '../images/lieux/soleil/antreDeDragon.png'
+import ménagerieMystique from '../images/lieux/soleil/ménagerieMystique.png'
+import ileSanguinaire from '../images/lieux/soleil/ileSanguinaire.png'
+
 export const lieuxTries = [
   {
-    lune : 'Puit sacrificiel',
-    soleil : 'Catacombes de la mort'
+    lune : puitSacrificiel,
+    soleil : catacombesDeLaMort
   },
   {
-    lune : 'Bestiaire du sorcier',
-    soleil : 'Repaire des dragons'
+    lune : bestiaireDeSorcier,
+    soleil : repaireDesDragons
   },
   {
-    lune : 'Récif des naufrageurs',
-    soleil : 'Manoir de corail'
+    lune : récifDesNaufrageurs,
+    soleil : manoirDeCorail
   },
   {
-    lune : 'Mine des nains',
-    soleil : 'Forge maudite'
+    lune : mineDesNains,
+    soleil : forgeMaudite
   },
   {
-    lune : 'Porte des enfers',
-    soleil : 'Temple des abysses'
+    lune : porteDesEnfers,
+    soleil : templeDesAbysses
   },
   {
-    lune : 'Tour de l alchimiste',
-    soleil : 'Bosquet sacré'
+    lune : tourDeLalchimiste,
+    soleil : bosquetSacré
   },
   {
-    lune : 'Forteresse de cristal',
-    soleil : 'Antre de dragon'
+    lune : forteresseDeCristal,
+    soleil : antreDeDragon
   },
   {
-    lune : 'Laboratoire alchimique',
-    soleil : 'Ménagerie mystique'
+    lune : laboratoireAlchimique,
+    soleil : ménagerieMystique
   },
   {
-    lune : 'Berceau de perles',
-    soleil : 'Île sanguinaire'
+    lune : berceauDePerles,
+    soleil : ileSanguinaire
   }
 ]

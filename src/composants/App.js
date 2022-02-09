@@ -6,7 +6,10 @@ import LieuxDePouvoir from './LieuxDePouvoir'
 function App() {
   return (
     <div className="App">
-      <Banner/><Table/><LieuxDePouvoir/>
+      <Banner/><br/>
+      <div>
+        <Table/><LieuxDePouvoir/>
+      </div>
     </div>
   );
 }

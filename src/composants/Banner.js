@@ -1,13 +1,10 @@
 import '../styles/Banner.css'
 
-function Header() {
-    const titre = "RTE Arcana"
-    return (<h1>{titre}</h1>)
-  }
+import img_titre from '../images/titre.png'
 
 function Banner() {
     return (<div>
-        <Header />
+        <img src={img_titre} class="banniere" />
     </div>)
 }
 
