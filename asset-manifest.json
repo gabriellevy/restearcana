@@ -1,15 +1,34 @@
 {
   "files": {
-    "main.css": "/restearcana/static/css/main.04fb39bf.css",
-    "main.js": "/restearcana/static/js/main.c190b782.js",
+    "main.css": "/restearcana/static/css/main.ba7f1156.css",
+    "main.js": "/restearcana/static/js/main.61308232.js",
     "static/js/787.2684ed32.chunk.js": "/restearcana/static/js/787.2684ed32.chunk.js",
+    "static/media/berceauDePerles.png": "/restearcana/static/media/berceauDePerles.530584ee013aa29ef037.png",
+    "static/media/bestiaireDeSorcier.png": "/restearcana/static/media/bestiaireDeSorcier.d96d51bb929451d2412a.png",
+    "static/media/laboratoireAlchimique.png": "/restearcana/static/media/laboratoireAlchimique.0dbf61724058aee2de0b.png",
+    "static/media/forteresseDeCristal.png": "/restearcana/static/media/forteresseDeCristal.1e782074f287a64834e3.png",
+    "static/media/ileSanguinaire.png": "/restearcana/static/media/ileSanguinaire.416a39dc8322c10bf644.png",
+    "static/media/catacombesDeLaMort.png": "/restearcana/static/media/catacombesDeLaMort.4c6db2133d3e1354045d.png",
+    "static/media/repaireDesDragons.png": "/restearcana/static/media/repaireDesDragons.b1d49f118aac3e244bd7.png",
+    "static/media/manoirDeCorail.png": "/restearcana/static/media/manoirDeCorail.4b14d98092fea64885e0.png",
+    "static/media/puitSacrificiel.png": "/restearcana/static/media/puitSacrificiel.33d184acdddc15d2ea4f.png",
+    "static/media/bosquetSacré.png": "/restearcana/static/media/bosquetSacré.faa9766d23e502b313e1.png",
+    "static/media/mineDesNains.png": "/restearcana/static/media/mineDesNains.3182cae0056ac320f3d0.png",
+    "static/media/ménagerieMystique.png": "/restearcana/static/media/ménagerieMystique.ddf60d3b6b9ebe3fd16d.png",
+    "static/media/templeDesAbysses.png": "/restearcana/static/media/templeDesAbysses.3962cb060a231435a403.png",
+    "static/media/récifDesNaufrageurs.png": "/restearcana/static/media/récifDesNaufrageurs.93e031fe1c01128fc3e5.png",
+    "static/media/porteDesEnfers.png": "/restearcana/static/media/porteDesEnfers.f216bb8cb9fbc12b5942.png",
+    "static/media/tourDeLalchimiste.png": "/restearcana/static/media/tourDeLalchimiste.3fdca0030df3412eceb3.png",
+    "static/media/antreDeDragon.png": "/restearcana/static/media/antreDeDragon.f789d0f2fb34cc2e6ce0.png",
+    "static/media/forgeMaudite.png": "/restearcana/static/media/forgeMaudite.3a4ed204e4d256db41fc.png",
+    "static/media/titre.png": "/restearcana/static/media/titre.64f91271cab70d1490d6.png",
     "index.html": "/restearcana/index.html",
-    "main.04fb39bf.css.map": "/restearcana/static/css/main.04fb39bf.css.map",
-    "main.c190b782.js.map": "/restearcana/static/js/main.c190b782.js.map",
+    "main.ba7f1156.css.map": "/restearcana/static/css/main.ba7f1156.css.map",
+    "main.61308232.js.map": "/restearcana/static/js/main.61308232.js.map",
     "787.2684ed32.chunk.js.map": "/restearcana/static/js/787.2684ed32.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04fb39bf.css",
-    "static/js/main.c190b782.js"
+    "static/css/main.ba7f1156.css",
+    "static/js/main.61308232.js"
   ]
 }
