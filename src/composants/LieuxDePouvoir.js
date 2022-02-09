@@ -11,8 +11,16 @@ function LieuxDePouvoir() {
         .map((value ) => Math.random()>0.5 ? value.lune : value.soleil)
 
     let nbLieux = 7;
-        if (joueursTries.length == 5)
-            nbLieux = 7;
+    if (joueursTries.length == 2)
+        nbLieux = 4;
+    else if (joueursTries.length == 3)
+        nbLieux = 5;
+    else if (joueursTries.length == 4)
+        nbLieux = 6;
+    else if (joueursTries.length == 5)
+        nbLieux = 7;
+    
+    lieux = lieux.slice(0,nbLieux)
 
     return (
         <div>
