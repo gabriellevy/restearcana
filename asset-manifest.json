@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/restearcana/static/css/main.ba7f1156.css",
-    "main.js": "/restearcana/static/js/main.61308232.js",
+    "main.js": "/restearcana/static/js/main.2d477a9e.js",
     "static/js/787.2684ed32.chunk.js": "/restearcana/static/js/787.2684ed32.chunk.js",
     "static/media/berceauDePerles.png": "/restearcana/static/media/berceauDePerles.530584ee013aa29ef037.png",
     "static/media/bestiaireDeSorcier.png": "/restearcana/static/media/bestiaireDeSorcier.d96d51bb929451d2412a.png",
@@ -24,11 +24,11 @@
     "static/media/titre.png": "/restearcana/static/media/titre.64f91271cab70d1490d6.png",
     "index.html": "/restearcana/index.html",
     "main.ba7f1156.css.map": "/restearcana/static/css/main.ba7f1156.css.map",
-    "main.61308232.js.map": "/restearcana/static/js/main.61308232.js.map",
+    "main.2d477a9e.js.map": "/restearcana/static/js/main.2d477a9e.js.map",
     "787.2684ed32.chunk.js.map": "/restearcana/static/js/787.2684ed32.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ba7f1156.css",
-    "static/js/main.61308232.js"
+    "static/js/main.2d477a9e.js"
   ]
 }
