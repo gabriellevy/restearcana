@@ -20,39 +20,39 @@ import ileSanguinaire from '../images/lieux/soleil/ileSanguinaire.png'
 
 export const lieuxTries = [
   {
-    lune : {img: puitSacrificiel, txt: ''},
-    soleil : {img: catacombesDeLaMort, txt: ''}
+    lune : {img: puitSacrificiel, txt: 'Puit sacrificiel'},
+    soleil : {img: catacombesDeLaMort, txt: 'catacombes de la mort'}
   },
   {
-    lune : {img: bestiaireDeSorcier, txt: ''},
-    soleil : {img: repaireDesDragons, txt: ''}
+    lune : {img: bestiaireDeSorcier, txt: 'bestiaire de sorcier'},
+    soleil : {img: repaireDesDragons, txt: 'repaire des dragons'}
   },
   {
-    lune : {img: récifDesNaufrageurs, txt: ''},
-    soleil : {img: manoirDeCorail, txt: ''}
+    lune : {img: récifDesNaufrageurs, txt: 'récif des naufrageurs'},
+    soleil : {img: manoirDeCorail, txt: 'manoir de corail'}
   },
   {
-    lune : {img: mineDesNains, txt: ''},
-    soleil : {img: forgeMaudite, txt: ''}
+    lune : {img: mineDesNains, txt: 'mine des nains'},
+    soleil : {img: forgeMaudite, txt: 'forge maudite'}
   },
   {
-    lune : {img: porteDesEnfers, txt: ''},
-    soleil : {img: templeDesAbysses, txt: ''}
+    lune : {img: porteDesEnfers, txt: 'porte des enfers'},
+    soleil : {img: templeDesAbysses, txt: 'temple des abysses'}
   },
   {
-    lune : {img: tourDeLalchimiste, txt: ''},
-    soleil : {img: bosquetSacré, txt: ''}
+    lune : {img: tourDeLalchimiste, txt: "tour de l'alchimiste"},
+    soleil : {img: bosquetSacré, txt: 'bosquet sacré'}
   },
   {
-    lune : {img: forteresseDeCristal, txt: ''},
-    soleil : {img: antreDeDragon, txt: ''}
+    lune : {img: forteresseDeCristal, txt: 'forteresse de cristal'},
+    soleil : {img: antreDeDragon, txt: 'antre de dragon'}
   },
   {
-    lune : {img: laboratoireAlchimique, txt: ''},
-    soleil : {img: ménagerieMystique, txt: ''}
+    lune : {img: laboratoireAlchimique, txt: 'laboratoire alchimique'},
+    soleil : {img: ménagerieMystique, txt: 'ménagerie mystique'}
   },
   {
-    lune : {img: berceauDePerles, txt: ''},
-    soleil : {img: ileSanguinaire, txt: ''}
+    lune : {img: berceauDePerles, txt: 'berceau de perles'},
+    soleil : {img: ileSanguinaire, txt: 'ile sanguinaire'}
   }
 ]

@@ -1,10 +1,9 @@
 import { lieuxTries } from '../donnees/lieuxPuissance'
-import { joueursTries } from '../donnees/joueurs'
 import '../styles/LieuxDePuissance.css';
 
-function LieuxDePouvoir() {
-    let titre = 'Lieux de pouvoir'
-
+function LieuxDePouvoir(props) {
+    const titre = 'Lieux de pouvoir';
+    const {nbJoueurs} = props;
     let lieux = lieuxTries
         .map(value => ({ value, sort: Math.random() }))
         .sort((a, b) => a.sort - b.sort)
@@ -12,14 +11,23 @@ function LieuxDePouvoir() {
         .map((value ) => Math.random()>0.5 ?  value.lune : value.soleil)
 
     let nbLieux = 7;
-    if (joueursTries.length === 2)
-        nbLieux = 4;
-    else if (joueursTries.length === 3)
-        nbLieux = 5;
-    else if (joueursTries.length === 4)
-        nbLieux = 6;
-    else if (joueursTries.length === 5)
-        nbLieux = 7;
+    switch(nbJoueurs){
+        case 2:
+            nbLieux = 4;
+            break;
+        case 3:
+            nbLieux = 5;
+            break;
+        case 4:
+            nbLieux = 6;
+            break;
+        case 5:
+            nbLieux = 7;
+            break;
+        default:
+            nbLieux = 0;
+            break;
+    }
     
     lieux = lieux.slice(0, nbLieux);
 
