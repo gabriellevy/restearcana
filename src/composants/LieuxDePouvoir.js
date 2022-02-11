@@ -12,22 +12,22 @@ function LieuxDePouvoir() {
         .map((value ) => Math.random()>0.5 ?  value.lune : value.soleil)
 
     let nbLieux = 7;
-    if (joueursTries.length == 2)
+    if (joueursTries.length === 2)
         nbLieux = 4;
-    else if (joueursTries.length == 3)
+    else if (joueursTries.length === 3)
         nbLieux = 5;
-    else if (joueursTries.length == 4)
+    else if (joueursTries.length === 4)
         nbLieux = 6;
-    else if (joueursTries.length == 5)
+    else if (joueursTries.length === 5)
         nbLieux = 7;
     
-    lieux = lieux.slice(0,nbLieux)
+    lieux = lieux.slice(0, nbLieux);
 
     return (
         <div>
         <h2>{titre}</h2>
-                {lieux.map((lieu) => (
-                        <img src={lieu}/>
+                {lieux.map((lieu, index) => (
+                        <img key={index} src={lieu.img} alt={lieu.txt}/>
                 ))}
             </div>
         )

@@ -20,39 +20,39 @@ import ileSanguinaire from '../images/lieux/soleil/ileSanguinaire.png'
 
 export const lieuxTries = [
   {
-    lune : puitSacrificiel,
-    soleil : catacombesDeLaMort
+    lune : {img: puitSacrificiel, txt: ''},
+    soleil : {img: catacombesDeLaMort, txt: ''}
   },
   {
-    lune : bestiaireDeSorcier,
-    soleil : repaireDesDragons
+    lune : {img: bestiaireDeSorcier, txt: ''},
+    soleil : {img: repaireDesDragons, txt: ''}
   },
   {
-    lune : récifDesNaufrageurs,
-    soleil : manoirDeCorail
+    lune : {img: récifDesNaufrageurs, txt: ''},
+    soleil : {img: manoirDeCorail, txt: ''}
   },
   {
-    lune : mineDesNains,
-    soleil : forgeMaudite
+    lune : {img: mineDesNains, txt: ''},
+    soleil : {img: forgeMaudite, txt: ''}
   },
   {
-    lune : porteDesEnfers,
-    soleil : templeDesAbysses
+    lune : {img: porteDesEnfers, txt: ''},
+    soleil : {img: templeDesAbysses, txt: ''}
   },
   {
-    lune : tourDeLalchimiste,
-    soleil : bosquetSacré
+    lune : {img: tourDeLalchimiste, txt: ''},
+    soleil : {img: bosquetSacré, txt: ''}
   },
   {
-    lune : forteresseDeCristal,
-    soleil : antreDeDragon
+    lune : {img: forteresseDeCristal, txt: ''},
+    soleil : {img: antreDeDragon, txt: ''}
   },
   {
-    lune : laboratoireAlchimique,
-    soleil : ménagerieMystique
+    lune : {img: laboratoireAlchimique, txt: ''},
+    soleil : {img: ménagerieMystique, txt: ''}
   },
   {
-    lune : berceauDePerles,
-    soleil : ileSanguinaire
+    lune : {img: berceauDePerles, txt: ''},
+    soleil : {img: ileSanguinaire, txt: ''}
   }
 ]

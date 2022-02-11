@@ -4,7 +4,7 @@ import img_titre from '../images/titre.png'
 
 function Banner() {
     return (<div>
-        <img src={img_titre} class="banniere" />
+        <img src={img_titre} className="banniere" alt='Banner'/>
     </div>)
 }
 
