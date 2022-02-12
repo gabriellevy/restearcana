@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/restearcana/static/css/main.ba7f1156.css",
-    "main.js": "/restearcana/static/js/main.2d477a9e.js",
+    "main.css": "/restearcana/static/css/main.fd2c53e5.css",
+    "main.js": "/restearcana/static/js/main.cfa066b7.js",
     "static/js/787.2684ed32.chunk.js": "/restearcana/static/js/787.2684ed32.chunk.js",
     "static/media/berceauDePerles.png": "/restearcana/static/media/berceauDePerles.530584ee013aa29ef037.png",
     "static/media/bestiaireDeSorcier.png": "/restearcana/static/media/bestiaireDeSorcier.d96d51bb929451d2412a.png",
@@ -23,12 +23,12 @@
     "static/media/forgeMaudite.png": "/restearcana/static/media/forgeMaudite.3a4ed204e4d256db41fc.png",
     "static/media/titre.png": "/restearcana/static/media/titre.64f91271cab70d1490d6.png",
     "index.html": "/restearcana/index.html",
-    "main.ba7f1156.css.map": "/restearcana/static/css/main.ba7f1156.css.map",
-    "main.2d477a9e.js.map": "/restearcana/static/js/main.2d477a9e.js.map",
+    "main.fd2c53e5.css.map": "/restearcana/static/css/main.fd2c53e5.css.map",
+    "main.cfa066b7.js.map": "/restearcana/static/js/main.cfa066b7.js.map",
     "787.2684ed32.chunk.js.map": "/restearcana/static/js/787.2684ed32.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba7f1156.css",
-    "static/js/main.2d477a9e.js"
+    "static/css/main.fd2c53e5.css",
+    "static/js/main.cfa066b7.js"
   ]
 }
