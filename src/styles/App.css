@@ -1,10 +1,29 @@
 .App {
-  text-align: center;
+  margin: auto;
+  padding: 10px;
+	max-width: 1024px;
+  background-color: rgb(39, 23, 2);
+  color: aliceblue;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.boutonAjouter {
+  color: rgb(1, 18, 32);
+  background-color: aliceblue;
+  padding: 2px 30px;
+  text-align: center;
+  font-size: 28px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  cursor:pointer;
+}
+
+.boutonAjouter:hover {
+  background-color: #947569;
 }
 
 @media (prefers-reduced-motion: no-preference) {

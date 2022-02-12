@@ -1,9 +1,27 @@
-img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 200px;
-    height: 300px;
-    float: left;
-  }
+.lieuxDePuissance_ul {
+  list-style-type: none;
+	padding: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1024px;
+}
 
+.lieuxDePuissance_li {
+  margin: 4px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	text-transform: capitalize;
+}
+
+.lieuxDePuissance_img {
+  border: solid 2px black;
+  border-radius: 10px;
+  width: 220px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

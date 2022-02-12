@@ -3,12 +3,10 @@ import PlayerDialog from './Dialogs/PlayerDialog.js'
 
 
 function Table(props) {
-    const titre = 'Ordre des joueurs'
     const {joueurs, handleRemovePlayer, handleAddPlayer} = props;
 
     return (
         <div>
-            <h2>{titre}</h2>
             <PlayerDialog handleAddPlayer={handleAddPlayer}/>
             <ul>
                 {joueurs.map((joueur) => (

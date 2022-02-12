@@ -6,6 +6,7 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
+import '../../styles/App.css';
 
 
 function PlayerDialog(props) {
@@ -28,7 +29,7 @@ function PlayerDialog(props) {
 
   return (
     <div>
-      <Button variant="outlined" onClick={handleClickOpen}>
+      <Button class="boutonAjouter" onClick={handleClickOpen}>
         +
       </Button>
       <Dialog open={open} onClose={handleClose}>

@@ -1,8 +1,7 @@
 import { lieuxTries } from '../donnees/lieuxPuissance'
 import '../styles/LieuxDePuissance.css';
 
-function LieuxDePouvoir(props) {
-    const titre = 'Lieux de pouvoir';
+function LieuxDePuissance(props) {
     const {nbJoueurs} = props;
     let lieux = lieuxTries
         .map(value => ({ value, sort: Math.random() }))
@@ -33,12 +32,15 @@ function LieuxDePouvoir(props) {
 
     return (
         <div>
-        <h2>{titre}</h2>
+            <ul className='lieuxDePuissance_ul'>
                 {lieux.map((lieu, index) => (
-                        <img key={index} src={lieu.img} alt={lieu.txt}/>
+                    <li key={index} className='lieuxDePuissance_li'>
+                        <img key={index} src={lieu.img} alt={lieu.txt} className='lieuxDePuissance_img'/>
+                    </li>
                 ))}
-            </div>
+            </ul>
+        </div>
         )
 }
 
-export default LieuxDePouvoir
+export default LieuxDePuissance

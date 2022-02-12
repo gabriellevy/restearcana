@@ -2,7 +2,7 @@ import {useState, useEffect} from 'react';
 import '../styles/App.css';
 import Banner from './Banner'
 import Table from './Table'
-import LieuxDePouvoir from './LieuxDePouvoir'
+import LieuxDePuissance from './LieuxDePuissance'
 import { joueursTries } from '../donnees/joueurs'
 
 function App() {
@@ -76,7 +76,7 @@ function App() {
       <Banner/><br/>
       <div>
         <Table joueurs={joueurs} updateJoueurs={updateJoueurs} handleRemovePlayer={removeItem} handleAddPlayer={addPlayer} />
-        <LieuxDePouvoir nbJoueurs={joueurs.length}/>
+        <LieuxDePuissance nbJoueurs={joueurs.length}/>
       </div>
     </div>
   );
