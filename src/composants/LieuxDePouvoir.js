@@ -33,12 +33,16 @@ function LieuxDePouvoir(props) {
 
     return (
         <div>
-        <h2>{titre}</h2>
-                {lieux.map((lieu, index) => (
-                        <img key={index} src={lieu.img} alt={lieu.txt}/>
-                ))}
+            <h2 className= "text-center" >{titre}</h2>
+            <div className="row">
+            {lieux.map((lieu, index) => (
+                <div className="col-6 col-md-3 p-2">
+                    <img className="img-fluid img-thumbnail rounded" key={index} src={lieu.img} alt={lieu.txt}/>
+                </div>
+            ))}
             </div>
-        )
+        </div>
+    )
 }
 
 export default LieuxDePouvoir

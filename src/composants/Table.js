@@ -7,7 +7,7 @@ function Table(props) {
     const {joueurs, handleRemovePlayer, handleAddPlayer} = props;
 
     return (
-        <div>
+        <div className="text-center">
             <h2>{titre}</h2>
             <PlayerDialog handleAddPlayer={handleAddPlayer}/>
             <ul>

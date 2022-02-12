@@ -72,9 +72,11 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <Banner/><br/>
-      <div>
+    <div>
+        <div className="container text-center" >
+            <Banner/>
+        </div>
+      <div className="container pt-4">
         <Table joueurs={joueurs} updateJoueurs={updateJoueurs} handleRemovePlayer={removeItem} handleAddPlayer={addPlayer} />
         <LieuxDePouvoir nbJoueurs={joueurs.length}/>
       </div>
